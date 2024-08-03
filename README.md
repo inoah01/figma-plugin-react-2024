@@ -11,10 +11,20 @@ Before getting up and running with this template, please make sure you have the 
 - NPM 
 
 ## Installation
+1. Clone the repo 
 ```
 git clone https://github.com/inoah01/figma-plugin-react-2024.git  
 
+``` 
+2. Open/navigate to the repo directory
+```
 cd figma-plugin-react-2024
+
+``` 
+3. Install dependencies
+```
+npm install
+
 ``` 
 
 ## Development
