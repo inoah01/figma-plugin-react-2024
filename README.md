@@ -1,8 +1,8 @@
 # Figma Plugin React Template (2024)
 
-A lightweight template for creating custom UI Figma plugins using React for the UI component library. This repo was inspired by the [Figma Plugin React Template GitHub Repo](https://github.com/nirsky/figma-plugin-react-template) from @nirsky and the [Building Figma plugins with React](https://blog.logrocket.com/building-figma-plugins-with-react/) from LogRocket with the goal of creating a streamlined, modern (as of Aug. 2024) starting point that leverages dependencies that Figma provides to you out-of-the-box (OOTB).
+A lightweight template for creating custom UI Figma plugins using React for the UI component library. This repo was inspired by the [Figma Plugin React Template GitHub Repo](https://github.com/nirsky/figma-plugin-react-template) from @nirsky and the [Building Figma plugins with React](https://blog.logrocket.com/building-figma-plugins-with-react/) article from LogRocket. The goal of this repo is to serve as a streamlined, modern (as of Aug. 2024) starting point for React Figma plugins that leverages dependencies that Figma provides to you out-of-the-box (OOTB).
 
-That having been said, this is a *lightweight* template that does not contain any additional functionality beyond a type declaration for SVGs. The logic for listening to UI messages and creating rectangles, which ships with new Custom UI Figma plugins by default, can be found in [```src/plugin/controller.ts```](./src/plugin/controller.ts), but the corresponding UI code has been removed from ```index.html``` (known as ***ui.html*** for stock/OOTB plugins).
+That having been said, this is a *lightweight* template that does not contain any additional functionality beyond a type declaration for SVGs and some *basic* CSS. The logic for listening to UI messages and creating rectangles, which ships with new Custom UI Figma plugins by default, can be found in [```src/plugin/controller.ts```](./src/plugin/controller.ts), but the corresponding UI code has been removed from ```index.html``` (known as ***ui.html*** for stock/OOTB plugins).
 
 
 ## Prerequisites 
